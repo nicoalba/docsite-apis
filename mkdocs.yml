@@ -1,4 +1,5 @@
 site_name: Sample docsite
+site_url: https://nicoalba.github.io/sample-docsite/
 theme: 
   name: material
   palette: 
