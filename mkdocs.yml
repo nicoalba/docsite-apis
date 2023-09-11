@@ -1,0 +1,10 @@
+site_name: Sample docsite
+theme: material
+
+nav:
+  - Overview: index.html
+  - Get started: get-started.md
+  - Tutorials:
+    - Tutorial 1: tutorial-1.md
+  - Reference:
+    - Reference 1: reference-1.md
