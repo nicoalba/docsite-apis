@@ -1,17 +1,9 @@
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is a sample static docs site generated with [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Example
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum nec massa sit amet sagittis. Nullam finibus metus a erat posuere congue. Integer pulvinar ullamcorper blandit. Maecenas vestibulum quis massa non luctus. Integer sit amet venenatis sapien, in ultrices augue. Duis scelerisque dapibus tincidunt. Donec dapibus varius lacinia. Vivamus faucibus lobortis sem, imperdiet vestibulum nisi lacinia nec.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Ut mattis massa metus, sed bibendum velit euismod sit amet. Suspendisse convallis, lorem sit amet ultrices cursus, lacus diam sodales massa, vitae hendrerit metus neque ut nibh. Quisque aliquam leo maximus hendrerit sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus turpis risus, pretium nec ante nec, euismod blandit nisl. Fusce in ipsum turpis. Cras in faucibus tortor, nec mollis dui. Donec vel mattis lorem. Mauris non nunc consequat, congue libero vitae, aliquet nulla. Nam eget tincidunt ante. Maecenas justo augue, mattis ac aliquam sit amet, suscipit eu mauris. Quisque eu ex tincidunt, dignissim nunc et, ornare mi. Duis semper diam ut massa ultrices, ut pellentesque justo luctus. Etiam pretium turpis rutrum mi faucibus facilisis. Morbi sed purus ex.
