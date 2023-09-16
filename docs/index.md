@@ -1,5 +1,7 @@
 # Welcome to MkDocs
 
+![cover-image](cover-image.jpg)
+
 This is a sample static docs site generated with [mkdocs.org](https://www.mkdocs.org).
 
 ## Example
