@@ -1,0 +1,18 @@
+site_name: Sample docsite
+site_url: https://nicoalba.github.io/sample-docsite/
+theme: 
+  name: material
+  palette: 
+    - scheme: slate
+      primary: orange
+      accent: orange
+
+      
+
+nav:
+  - Overview: index.md
+  - Get started: get-started.md
+  - Tutorials:
+    - Tutorial 1: tutorial-1.md
+  - Reference:
+    - Reference 1: reference-1.md
