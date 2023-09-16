@@ -2,6 +2,10 @@
 
 ## Prerequisites
 
+- [x] test
+- [x] test
+- [x] test
+
 ## Steps
 
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a sapien lacus. Curabitur vel justo elit. In non felis quis.

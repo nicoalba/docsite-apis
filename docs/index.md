@@ -1,11 +1,17 @@
-# Welcome to MkDocs
+# Welcome to Nico's sample site
 
 ![cover-image](images/cover-image.jpg)
 
-This is a sample static docs site generated with [mkdocs.org](https://www.mkdocs.org).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum nec massa sit amet sagittis.
 
-## Example
+!!! note "Phasellus posuere in sem ut cursus"
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum nec massa sit amet sagittis. Nullam finibus metus a erat posuere congue. Integer pulvinar ullamcorper blandit. Maecenas vestibulum quis massa non luctus. Integer sit amet venenatis sapien, in ultrices augue. Duis scelerisque dapibus tincidunt. Donec dapibus varius lacinia. Vivamus faucibus lobortis sem, imperdiet vestibulum nisi lacinia nec.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
-Ut mattis massa metus, sed bibendum velit euismod sit amet. Suspendisse convallis, lorem sit amet ultrices cursus, lacus diam sodales massa, vitae hendrerit metus neque ut nibh. Quisque aliquam leo maximus hendrerit sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus turpis risus, pretium nec ante nec, euismod blandit nisl. Fusce in ipsum turpis. Cras in faucibus tortor, nec mollis dui. Donec vel mattis lorem. Mauris non nunc consequat, congue libero vitae, aliquet nulla. Nam eget tincidunt ante. Maecenas justo augue, mattis ac aliquam sit amet, suscipit eu mauris. Quisque eu ex tincidunt, dignissim nunc et, ornare mi. Duis semper diam ut massa ultrices, ut pellentesque justo luctus. Etiam pretium turpis rutrum mi faucibus facilisis. Morbi sed purus ex.
+??? "Collapsible note"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
