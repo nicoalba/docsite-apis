@@ -6,12 +6,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/get-started/</loc>
+         <loc>https://nicoalba.github.io/sample-docsite/concept-1/</loc>
          <lastmod>2023-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/reference-1/</loc>
+         <loc>https://nicoalba.github.io/sample-docsite/data-tables/</loc>
+         <lastmod>2023-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/sample-docsite/definitions/</loc>
+         <lastmod>2023-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/sample-docsite/example-code/</loc>
+         <lastmod>2023-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/sample-docsite/get-started/</loc>
          <lastmod>2023-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
