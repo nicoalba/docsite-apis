@@ -13,11 +13,11 @@ This project showcases a static documentation website built using [MkDocs](https
 - Automatically generated navigation and search functionality.
 - Lightweight and fast for viewing project documentation.
 
-## Live demo
+## 🌐 Live demo
 
 The live version of the site is available at: [https://nicoalba.github.io/sample-docsite-pages/](https://nicoalba.github.io/sample-docsite-pages/).
 
-## Running locally
+## 💻 Running locally
 
 ### Prerequisites
 
@@ -30,7 +30,7 @@ Before running the project locally, make sure you've installed:
     pip install mkdocs
     ```
 
-## Steps to run locally
+### Steps to run locally
 
 1. Clone the repository to your local machine:
     
