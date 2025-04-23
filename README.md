@@ -7,7 +7,7 @@ This project showcases a static documentation website built using [MkDocs](https
 - **MkDocs**: A static site generator geared towards project documentation.
 - **GitHub Pages**: A free hosting service for static websites provided by GitHub.
 
-## Features
+## 🚀 Features
 
 - Clean and simple theme for documentation.
 - Automatically generated navigation and search functionality.
