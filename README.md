@@ -61,3 +61,8 @@ Before running the project locally, make sure you've installed:
     ```
 
 5. Open your web browser and go to http://127.0.0.1:8000/ to view your documentation locally.
+
+## 👤 Author
+
+**Nico Alba**  
+[GitHub](https://github.com/nicoalba) • [LinkedIn](https://linkedin.com/in/nicoalba)
