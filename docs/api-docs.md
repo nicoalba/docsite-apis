@@ -1,2 +1,0 @@
-# Chess API docs
-
