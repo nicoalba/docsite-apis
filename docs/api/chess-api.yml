@@ -1,0 +1,51 @@
+openapi: 3.0.3
+info:
+  title: Chess.com Published Data API
+  version: 1.0.0
+  description: A public API for accessing chess player profiles, games, puzzles, and more.
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+servers:
+  - url: https://api.chess.com
+security: []
+paths:
+  /pub/player/{username}:
+    get:
+      operationId: getPlayerProfile
+      summary: Get player profile
+      description: Retrieve the profile information of a chess player by their username.
+      parameters:
+        - name: username
+          in: path
+          required: true
+          description: The player's username
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with player profile data.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Player'
+        '404':
+          description: Player not found
+components:
+  schemas:
+    Player:
+      type: object
+      properties:
+        username:
+          type: string
+        rating:
+          type: integer
+        joined:
+          type: integer
+        country:
+          type: string
+      example:
+        username: magnuscarlsen
+        rating: 2831
+        joined: 1209600
+        country: https://api.chess.com/pub/country/NO
