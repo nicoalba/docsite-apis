@@ -36,6 +36,7 @@ nav:
   - Concepts:
     - Concepts 1: concept-1.md
   - Reference:
+    - API docs: api-docs.md
     - Example code: example-code.md
     - Definitions: definitions.md
     - Data tables: data-tables.md
