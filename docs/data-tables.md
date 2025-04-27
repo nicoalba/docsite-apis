@@ -1,7 +1,9 @@
 # Data tables
 
-| Method      | Description                          |
-| ----------- | ------------------------------------ |
-| `GET`       | :material-check:     Fetch resource  |
-| `PUT`       | :material-check-all: Update resource |
-| `DELETE`    | :material-close:     Delete resource |
+Tables look nicer formatted.
+
+| Method   | Description     |
+| -------- | --------------- |
+| `GET`    | Fetch resource  |
+| `PUT`    | Update resource |
+| `DELETE` | Delete resource |

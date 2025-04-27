@@ -1,8 +1,8 @@
-# Welcome to Nico's sample site
+# Nico's chess docs
 
-![cover-image](images/cover-image.jpg)
+![cover-image](images/knight-banner-1.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum nec massa sit amet sagittis.
+As someone who is very passionate about chess (34,000 blitz games online and counting, don't judge me), I figured a good sample API to write and render would be some public Chess.com API endpoints. See the Reference section.
 
 !!! note "Phasellus posuere in sem ut cursus"
 

@@ -1,6 +1,8 @@
 # Example code
 
-## Example code
+Some example code blocks
+
+## Example Javascript code block
 
 ```java
     // Called when the submit button is clicked.
