@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/concept-1/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/concept-1/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/data-tables/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/data-tables/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/definitions/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/definitions/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/example-code/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/example-code/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/get-started/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/get-started/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
     <url>
-         <loc>https://nicoalba.github.io/sample-docsite/tutorial-1/</loc>
-         <lastmod>2023-09-16</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nicoalba.github.io/docsite-apis/tutorial-1/</loc>
+         <lastmod>2025-04-27</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/api/api-docs/</loc>
+         <lastmod>2025-04-27</lastmod>
     </url>
 </urlset>
