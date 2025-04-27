@@ -1,7 +1,7 @@
 site_name: Nico's sample docsite
 site_url: https://nicoalba.github.io/docsite-apis/
 theme: 
-  name: material
+  name: ivory
   palette: 
     - scheme: slate
       primary: orange
@@ -9,6 +9,9 @@ theme:
   features:
     - navigation.path
     - content.code.copy
+    - content.code.annotate
+extra_javascript:
+  - https://cdn.redoc.ly/redoc/v2.0.0-rc.74/bundles/redoc.standalone.js
 
 markdown_extensions:
   - admonition

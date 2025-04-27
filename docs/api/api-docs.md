@@ -1,5 +1,3 @@
 # Chess API docs
 
-The API specification is rendered below:
-
-<redoc src="chess-api.yml"></redoc>
+<redoc src="chess-api.yml" layout="stacked" expand-responses="all" hide-hostname="true"></redoc>
