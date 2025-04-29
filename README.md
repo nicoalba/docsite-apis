@@ -15,7 +15,7 @@ This project showcases a static documentation website built using [MkDocs](https
 
 ## 🌐 Live demo
 
-The live version of the site is available at: [https://nicoalba.github.io/sample-docsite-pages/](https://nicoalba.github.io/sample-docsite-pages/).
+The live version of the site is available at: [https://nicoalba.github.io/sample-docsite-pages/](https://nicoalba.github.io/docsite-apis/).
 
 ## 💻 Running locally
 
