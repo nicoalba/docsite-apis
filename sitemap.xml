@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nicoalba.github.io/docsite-apis/</loc>
-         <lastmod>2025-04-27</lastmod>
-    </url>
-    <url>
-         <loc>https://nicoalba.github.io/docsite-apis/concept-1/</loc>
-         <lastmod>2025-04-27</lastmod>
-    </url>
-    <url>
-         <loc>https://nicoalba.github.io/docsite-apis/data-tables/</loc>
-         <lastmod>2025-04-27</lastmod>
-    </url>
-    <url>
-         <loc>https://nicoalba.github.io/docsite-apis/definitions/</loc>
-         <lastmod>2025-04-27</lastmod>
-    </url>
-    <url>
-         <loc>https://nicoalba.github.io/docsite-apis/example-code/</loc>
-         <lastmod>2025-04-27</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://nicoalba.github.io/docsite-apis/get-started/</loc>
-         <lastmod>2025-04-27</lastmod>
-    </url>
-    <url>
-         <loc>https://nicoalba.github.io/docsite-apis/tutorial-1/</loc>
-         <lastmod>2025-04-27</lastmod>
+         <lastmod>2025-05-03</lastmod>
     </url>
     <url>
          <loc>https://nicoalba.github.io/docsite-apis/api/api-docs/</loc>
-         <lastmod>2025-04-27</lastmod>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/concepts/concept-1/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/reference/data-tables/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/reference/definitions/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/reference/example-code/</loc>
+         <lastmod>2025-05-03</lastmod>
+    </url>
+    <url>
+         <loc>https://nicoalba.github.io/docsite-apis/tutorials/retrieve-player-game-history/</loc>
+         <lastmod>2025-05-03</lastmod>
     </url>
 </urlset>

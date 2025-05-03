@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Example code — Nico's sample docsite</title>
+<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
+<link href="//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css" rel="stylesheet"/>
+<link href="//use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
+<link href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css" rel="stylesheet"/>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet"/>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+<body ontouchstart="">
+<div id="container">
+<aside>
+<div class="home">
+<div class="title">
+<button class="hamburger"></button>
+<a class="site-name" href="../.."> Nico's sample docsite</a>
+</div>
+</div>
+<nav class="nav">
+<ul class="root">
+<li class="toctree-l1"><a class="nav-item" href="../..">Overview</a></li>
+<li class="toctree-l1"><a class="nav-item" href="../../get-started/">Get started</a></li>
+<li class="toctree-l1"><button class="section nav-item">Tutorials</button>
+<ul class="subnav">
+<li class="toctree-l2">
+<a class="nav-item" href="../../tutorials/retrieve-player-game-history">Retrieve player history</a></li>
+</ul></li>
+<li class="toctree-l1"><button class="section nav-item">Concepts</button>
+<ul class="subnav">
+<li class="toctree-l2"><a class="nav-item" href="../../concepts/concept-1/">Concepts 1</a></li>
+</ul></li>
+<li class="toctree-l1"><button class="section nav-item">Reference</button>
+<ul class="subnav">
+<li class="toctree-l2"><a class="nav-item" href="../../api/api-docs/">API docs</a></li>
+<li class="toctree-l2 current"><a class="nav-item current" href="./">Example code</a>
+<ul class="subnav">
+<li class="toctree-l3"><a class="nav-item toc" href="#example-javascript-code-block">Example Javascript code block</a></li>
+</ul></li>
+<li class="toctree-l2"><a class="nav-item" href="../definitions/">Definitions</a></li>
+<li class="toctree-l2"><a class="nav-item" href="../data-tables/">Data tables</a></li>
+</ul></li>
+</ul>
+</nav>
+<div class="repo">
+<div class="previous"><a href="../../api/api-docs/">« Previous</a></div>
+<div class="next"><a href="../definitions/">Next »</a></div>
+</div>
+</aside>
+<div id="spacer"><button class="arrow"></button></div>
+<main>
+<div class="home-top">
+<button class="hamburger"></button>
+<a class="site-name" href="../.."> Nico's sample docsite</a>
+</div>
+<div id="main">
+<nav class="breadcrumbs">
+<ul>
+<li>Reference</li>
+</ul>
+</nav>
+<div id="content"><h1 id="example-code">Example code</h1>
+<p>Some example code blocks</p>
+<h2 id="example-javascript-code-block">Example Javascript code block</h2>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="w">    </span><span class="c1">// Called when the submit button is clicked.</span>
+</span><span id="__span-0-2"><a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">    </span><span class="n">function</span><span class="w"> </span><span class="nf">submitLine</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="n">patientLine</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">textbox</span><span class="p">.</span><span class="na">value</span><span class="p">;</span>
+</span><span id="__span-0-4"><a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="n">therapySession</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s">"&lt;p&gt; &lt;em&gt;"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">patientLine</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">"&lt;/em&gt; &lt;/p&gt;"</span><span class="p">;</span>
+</span><span id="__span-0-5"><a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">    </span><span class="c1">// Choose response based on last character.</span>
+</span><span id="__span-0-7"><a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="n">therapistLine</span><span class="p">;</span>
+</span><span id="__span-0-8"><a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">lastChar</span><span class="p">(</span><span class="n">patientLine</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"?"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-9"><a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="w">        </span><span class="n">therapistLine</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">randomElement</span><span class="p">(</span><span class="n">questionResponses</span><span class="p">);</span>
+</span><span id="__span-0-10"><a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span>
+</span><span id="__span-0-11"><a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">lastChar</span><span class="p">(</span><span class="n">patientLine</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">"!"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-12"><a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">        </span><span class="n">therapistLine</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">randomElement</span><span class="p">(</span><span class="n">exclamationResponses</span><span class="p">);</span>
+</span><span id="__span-0-13"><a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">    </span><span class="p">}</span><span class="w"> </span>
+</span><span id="__span-0-14"><a href="#__codelineno-0-14" id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-15"><a href="#__codelineno-0-15" id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">        </span><span class="n">therapistLine</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">createQuestion</span><span class="p">(</span><span class="n">patientLine</span><span class="p">);</span>
+</span><span id="__span-0-16"><a href="#__codelineno-0-16" id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-17"><a href="#__codelineno-0-17" id="__codelineno-0-17" name="__codelineno-0-17"></a>
+</span><span id="__span-0-18"><a href="#__codelineno-0-18" id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">    </span><span class="c1">// Still no good response, so use a basic response.</span>
+</span><span id="__span-0-19"><a href="#__codelineno-0-19" id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">therapistLine</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-20"><a href="#__codelineno-0-20" id="__codelineno-0-20" name="__codelineno-0-20"></a><span class="w">        </span><span class="n">therapistLine</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">randomElement</span><span class="p">(</span><span class="n">genericResponses</span><span class="p">);</span>
+</span><span id="__span-0-21"><a href="#__codelineno-0-21" id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-22"><a href="#__codelineno-0-22" id="__codelineno-0-22" name="__codelineno-0-22"></a>
+</span><span id="__span-0-23"><a href="#__codelineno-0-23" id="__codelineno-0-23" name="__codelineno-0-23"></a><span class="w">    </span><span class="n">therapySession</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s">"&lt;p&gt;"</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">therapistLine</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">"&lt;/p&gt;"</span><span class="p">;</span>
+</span><span id="__span-0-24"><a href="#__codelineno-0-24" id="__codelineno-0-24" name="__codelineno-0-24"></a>
+</span><span id="__span-0-25"><a href="#__codelineno-0-25" id="__codelineno-0-25" name="__codelineno-0-25"></a><span class="w">    </span><span class="n">conversation</span><span class="p">.</span><span class="na">innerHTML</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">therapySession</span><span class="p">;</span>
+</span><span id="__span-0-26"><a href="#__codelineno-0-26" id="__codelineno-0-26" name="__codelineno-0-26"></a><span class="p">}</span>
+</span></code></pre></div></div>
+<footer>
+<div class="footer-buttons">
+<div class="previous"><a href="../../api/api-docs/" title="API docs"><span>Previous</span></a></div>
+<div class="next"><a href="../definitions/" title="Definitions"><span>Next</span></a></div>
+</div>
+<div class="footer-note">
+<p>
+            Built with <a href="http://www.mkdocs.org">MkDocs</a> using
+            <a href="https://github.com/daizutabi/mkdocs-ivory">Ivory theme</a>.
+        </p>
+</div>
+</footer>
+</div>
+</main>
+</div>
+<script>var base_url = '../..';</script>
+<script src="../../js/theme.js"></script>
+<script src="https://cdn.redoc.ly/redoc/v2.0.0-rc.74/bundles/redoc.standalone.js"></script>
+<script></script></body>
+</html>
