@@ -39,11 +39,11 @@ nav:
   - Overview: index.md
   - Get started: get-started.md
   - Tutorials:
-    - Tutorial 1: tutorial-1.md
+    - Tutorial 1: tutorial/retrieve-player-game-history
   - Concepts:
-    - Concepts 1: concept-1.md
+    - Concepts 1: concepts/concept-1.md
   - Reference:
     - API docs: api/api-docs.md
     - Example code: example-code.md
-    - Definitions: definitions.md
-    - Data tables: data-tables.md
+    - Definitions: reference/definitions.md
+    - Data tables: reference/data-tables.md
