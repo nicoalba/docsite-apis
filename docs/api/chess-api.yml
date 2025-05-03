@@ -40,9 +40,10 @@ paths:
       - name: username
         in: path
         required: true
+        description: The player's username
         schema:
           type: string
-        example: magnuscarlsen
+        example: nicoNASTY
       - name: limit
         in: query
         required: false
