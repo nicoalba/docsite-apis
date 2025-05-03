@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Retrieve player game history — Nico's sample docsite</title>
+<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
+<link href="//cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css" rel="stylesheet"/>
+<link href="//use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
+<link href="//use.fontawesome.com/releases/v5.8.1/css/v4-shims.css" rel="stylesheet"/>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet"/>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+<body ontouchstart="">
+<div id="container">
+<aside>
+<div class="home">
+<div class="title">
+<button class="hamburger"></button>
+<a class="site-name" href="../.."> Nico's sample docsite</a>
+</div>
+</div>
+<nav class="nav">
+<ul class="root">
+<li class="toctree-l1"><a class="nav-item" href="../..">Overview</a></li>
+<li class="toctree-l1"><a class="nav-item" href="../../get-started/">Get started</a></li>
+<li class="toctree-l1"><button class="section nav-item">Tutorials</button>
+<ul class="subnav">
+<li class="toctree-l2">
+<a class="nav-item" href="../../tutorial/retrieve-player-game-history">Retrieve player history</a></li>
+</ul></li>
+<li class="toctree-l1"><button class="section nav-item">Concepts</button>
+<ul class="subnav">
+<li class="toctree-l2"><a class="nav-item" href="../../concepts/concept-1/">Concepts 1</a></li>
+</ul></li>
+<li class="toctree-l1"><button class="section nav-item">Reference</button>
+<ul class="subnav">
+<li class="toctree-l2"><a class="nav-item" href="../../api/api-docs/">API docs</a></li>
+<li class="toctree-l2"><a class="nav-item" href="../../reference/example-code/">Example code</a></li>
+<li class="toctree-l2"><a class="nav-item" href="../../reference/definitions/">Definitions</a></li>
+<li class="toctree-l2"><a class="nav-item" href="../../reference/data-tables/">Data tables</a></li>
+</ul></li>
+</ul>
+</nav>
+<div class="repo">
+</div>
+</aside>
+<div id="spacer"><button class="arrow"></button></div>
+<main>
+<div class="home-top">
+<button class="hamburger"></button>
+<a class="site-name" href="../.."> Nico's sample docsite</a>
+</div>
+<div id="main">
+<nav class="breadcrumbs">
+<ul>
+</ul>
+</nav>
+<div id="content"><h1 id="retrieve-player-game-history">Retrieve player game history</h1>
+<p>Fetch a list of games played by a player using the <code>/players/{username}/games</code> endpoint.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+</span><span id="__span-0-2"><a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">username</span> <span class="o">=</span> <span class="s2">"magnuscarlsen"</span>
+</span><span id="__span-0-3"><a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">"https://api.chess.example.com/players/</span><span class="si">{</span><span class="n">username</span><span class="si">}</span><span class="s2">/games?limit=5"</span><span class="p">)</span>
+</span><span id="__span-0-4"><a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">games</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</span><span id="__span-0-5"><a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="k">for</span> <span class="n">game</span> <span class="ow">in</span> <span class="n">games</span><span class="p">:</span>
+</span><span id="__span-0-6"><a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Game </span><span class="si">{</span><span class="n">game</span><span class="p">[</span><span class="s1">'game_id'</span><span class="p">]</span><span class="si">}</span><span class="s2"> on </span><span class="si">{</span><span class="n">game</span><span class="p">[</span><span class="s1">'date'</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">game</span><span class="p">[</span><span class="s1">'result'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+</span></code></pre></div></div>
+<footer>
+<div class="footer-note">
+<p>
+            Built with <a href="http://www.mkdocs.org">MkDocs</a> using
+            <a href="https://github.com/daizutabi/mkdocs-ivory">Ivory theme</a>.
+        </p>
+</div>
+</footer>
+</div>
+</main>
+</div>
+<script>var base_url = '../..';</script>
+<script src="../../js/theme.js"></script>
+<script src="https://cdn.redoc.ly/redoc/v2.0.0-rc.74/bundles/redoc.standalone.js"></script>
+<script></script></body>
+</html>
