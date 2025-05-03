@@ -31,6 +31,47 @@ paths:
                 $ref: '#/components/schemas/Player'
         '404':
           description: Player not found
+  /players/{username}/games:
+    get:
+      operationId: getPlayerGames
+      summary: Get player games
+      description: Returns a list of games played by the specified player, including game IDs, dates, and results.
+      parameters:
+      - name: username
+        in: path
+        required: true
+        schema:
+          type: string
+        example: magnuscarlsen
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          default: 10
+        example: 10
+      responses:
+        '200':
+          description: List of games retrieved
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    game_id:
+                      type: string
+                    date:
+                      type: string
+                      format: date
+                    result:
+                      type: string
+                      enum: [win, loss, draw]
+                  example:
+                    game_id: "12345"
+                    date: "2025-04-01"
+                    result: "win"
 components:
   schemas:
     Player:
