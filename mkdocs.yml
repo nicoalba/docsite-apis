@@ -1,5 +1,6 @@
 site_name: Nico's sample docsite
 site_url: https://nicoalba.github.io/docsite-apis/
+site_dir: site
 theme: 
   name: ivory
   palette: 
