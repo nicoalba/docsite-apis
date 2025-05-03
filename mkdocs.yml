@@ -39,7 +39,7 @@ nav:
   - Overview: index.md
   - Get started: get-started.md
   - Tutorials:
-    - Retrieve player history: tutorial/retrieve-player-game-history
+    - Retrieve player history: tutorials/retrieve-player-game-history
   - Concepts:
     - Concepts 1: concepts/concept-1.md
   - Reference:
