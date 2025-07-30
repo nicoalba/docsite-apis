@@ -1,6 +1,6 @@
 # MkDocs sample docsite (GitHub Pages)
 
-This project showcases a static docsite generated with [MkDocs](https://mkdocs.org/), including an OpeniAPI spec I create from scratch, and API docs generated with Redocly, all served with GitHub pages.
+This project showcases a static docsite generated with [MkDocs](https://mkdocs.org/), including an OpenAPI spec I create from scratch, and API docs generated with Redocly, all served with GitHub pages.
 
 ## Tech stack
 
